@@ -1,0 +1,114 @@
+{
+  "blocks": [
+    {
+      "type": "hero",
+      "props": {
+        "title": "We build digital experiences that grow your business",
+        "subtitle": "Digital agency based in Colombia, working with clients worldwide",
+        "backgroundImage": "/images/hero-bg.jpg",
+        "button": {
+          "text": "Get Started",
+          "url": "/contact"
+        }
+      }
+    },
+    {
+      "type": "about",
+      "props": {
+        "title": "About Our Agency",
+        "description": "We are a digital agency based in Colombia, specialized in building modern, scalable, and high-performance web solutions for startups and growing businesses.",
+        "image": "/images/about.webp"
+      }
+    },
+    {
+      "type": "services",
+      "props": {
+        "title": "Our Services",
+        "services": [
+          {
+            "title": "Web Development",
+            "description": "Modern and scalable web applications using the latest technologies.",
+            "icon": "/images/service-web-icon.png"
+          },
+          {
+            "title": "UI/UX Design",
+            "description": "User-centered design focused on usability and conversion.",
+            "icon": "/images/service-web-icon.png"
+          },
+          {
+            "title": "Digital Marketing",
+            "description": "Data-driven marketing strategies to grow your online presence.",
+            "icon": "/images/service-web-icon.png"
+          }
+        ]
+      }
+    },
+    {
+      "type": "pricing",
+      "props": {
+        "title": "Pricing Plans",
+        "currency": "USD",
+        "plans": [
+          {
+            "name": "Starter",
+            "price": 499,
+            "features": [
+              "Landing page",
+              "Basic SEO setup",
+              "Email support"
+            ]
+          },
+          {
+            "name": "Professional",
+            "price": 999,
+            "features": [
+              "Multi-page website",
+              "Advanced SEO",
+              "Analytics integration"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": 1999,
+            "features": [
+              "Custom web application",
+              "Performance optimization",
+              "Priority support"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "contact",
+      "props": {
+        "title": "Contact Us",
+        "address": "Bogotá, Colombia",
+        "phone": "+57 300 123 4567",
+        "email": "contact@digitalagency.co",
+        "form": {
+          "fields": [
+            {
+              "name": "name",
+              "label": "Full Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "Email Address",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "message",
+              "label": "Message",
+              "type": "textarea",
+              "required": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
